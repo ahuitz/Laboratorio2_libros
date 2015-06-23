@@ -17,5 +17,10 @@ public class CrearBiblioteca implements Biblioteca{
         return libro;
     }
 
+    @Override
+    public Libros EnlazarAutorLibro() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     
 }
